@@ -1,0 +1,48 @@
+/* 
+-----------------------------------------------------
+🚀 CSS LAYERS STRUCTURE  
+-----------------------------------------------------
+@layer reset       → Resets default browser styles  
+@layer base        → Global styles (typography, colors, spacing)  
+@layer components  → Reusable components (navbar, hero, buttons)  
+@layer utilities   → Utility classes for spacing, buttons, etc.  
+@layer responsive  → Media queries for mobile, tablet, and desktop  
+-----------------------------------------------------
+*/
+
+@layer reset, base, components, utilities, responsive;
+
+/* Reset Layer: Remove default styles */
+@layer reset{
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-size: 16px;
+    }
+}
+
+/* Base Layer: Global styles and variables */
+@layer base{
+    /* Define CSS Variables */
+    :root{
+
+    }
+}
+
+/* Components Layer: Styling sections */
+@layer components{
+
+}
+
+/* Utilities Layer: Small reusable styles */
+@layer utilities{
+
+}
+
+/* Responsive Layer: Media Queries */
+@layer responsive{
+    
+}
